@@ -1,0 +1,17 @@
+request:
+  method: PATCH
+  url: /employee/address
+  body:
+    id: 111
+    address: "56 NW. Oxford St. Anderson, SC 29621"
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    name: "John Clark"
+    email: "john@testmail.com"
+    phone: 1010101010
+    address: "56 NW. Oxford St. Anderson, SC 29621"
+  headers:
+    Content-Type: application/json

@@ -1,0 +1,19 @@
+request:
+  method: POST
+  url: /employee
+  body:
+    name: "John Clark"
+    email: "john@testmail.com"
+    phone: 1010101010
+    address: "60 S. Race St. Palm Bay, FL 32907"
+  headers:
+    Content-Type: application/json
+response:
+  status: 200
+  body:
+    name: "John Clark"
+    email: "john@testmail.com"
+    phone: 1010101010
+    address: "60 S. Race St. Palm Bay, FL 32907"
+  headers:
+    Content-Type: application/json
